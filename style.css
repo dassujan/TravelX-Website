@@ -1,0 +1,91 @@
+.btn-1{
+    background-color: #00c6f2;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+.x{
+    color: #00c6f2;
+}
+.t-1{
+    font-size: 1.5rem;
+}
+.text-area{
+    height: 100vh;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+}
+.header{
+    background-image: url("https://source.unsplash.com/1600x900/?travel,background");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    content: "";
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.image-hero{
+    background-image: url(./img/offer.jpg);
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+.overlay {
+    height: 40vh;
+    background-color: rgba(0,0,0,0.7);
+}
+.caro-img{
+    height: 60vh;
+}
+.img-card{
+    height: 50vh;
+}
+.c-1{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.overlay-c{
+    background-color: rgba(0,0,0,0.7);
+    height: 50vh;
+    position: absolute;
+    top: 0;
+}
+.img-n{
+    height: 60vh;
+    width: 40vw;
+}
+.input{
+    height: 3.5rem;
+    width: 50vw;
+    border: 3px solid #00c6f2;
+    margin-bottom: 1.3rem;
+    border-radius: 5rem;
+}
+.btn-2{
+    border: 3px solid #00c6f2;
+    border-radius: 5rem;
+}
+footer{
+    background-color: #1e2021;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    height: 30vh;
+    padding-top: 3.5rem;
+}
+@media(max-width:600px){
+    .img-n{
+        display: none;
+    }
+}
